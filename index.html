@@ -6,84 +6,78 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>COLLEGE FORM</h1>
+    <h3>Login Details</h3>
 
-    <a href="home.html">home</a>
-    <a href="courses.html">Courses</a>
-    <a href="location.html">Location</a>
-    <a href="contact.html">Contact</a>
+    <form action="clgpage.html" method="get">
 
-    <h1>Besant Technologies</h1>
+        <div>
+            <!-- <label for="user">student name</label> -->
+            <input type="text" id="user" placeholder="student name" maxlength="20" minlength="5" required><br><br>
+        </div>
+        
+        <div>
+            <!-- <label for="pwd">reg no.</label> -->
+            <input type="reg no." id="pwd" placeholder="reg no." required><br><br>
+        </div>
+        
+            <!-- <label for="no.">Mobile no.</label> -->
+            <input type="number " id="no." placeholder="phone number"><br><br>
+        </div>
+        
+        <div>
+            <!-- <label for="email">Email</label> -->
+            <input type="email" id="email" placeholder="Email"><br><br>
+        </div>
+        
+        <div>
+            <label for="date">Date of birth</label>
+            <input type="date" id="date"><br><br>
+        </div>
 
-    <h3>HTML Project-1 Ramya Deepika</h3>
+        <div>
+            <label for="gender">gender</label>
+            <select>
+                <option></option>
+                <option>Male</option>
+                <option>female</option>
 
-    <h4>Sign Up</h4>
-
-    <form action="home.html" method="get">
-
-<div>
-    <!-- <label for="user">user name</label> -->
-    <input type="text" id="user" placeholder="username" maxlength="5" minlength="3" required><br><br>
-</div>
-
-<div>
-    <!-- <label for="pwd">Password</label> -->
-    <input type="password" id="pwd" placeholder="password" required><br><br>
-</div>
-
-    <!-- <label for="no.">Mobile no.</label> -->
-    <input type="number " id="no." placeholder="phone number"><br><br>
-</div>
-
-<div>
-    <!-- <label for="email">Email</label> -->
-    <input type="email" id="email" placeholder="Email"><br><br>
-</div>
-
-<div>
-    <label for="date">Date of birth</label>
-    <input type="date" id="date"><br><br>
-</div>
-
-<div>
-   <label for="course">Courses</label>
-   <select>
-    <option></option>
-    <option>Python full stack</option>
-    <option>java full stack</option>
-    <option>AWS</option>
-    </select>
-</div><br>
-<div>
-    <input type="checkbox" id="morning">
-    <label for="morning">morning batch</label>
-</div>
-
-<div>
-    <input type="checkbox" id="evening">
-    <label for="evening">evening batch</label>
-</div><br>
-
-<div>
-    <input type="radio" id="daily course">
-    <label for="Daily course">Daily course</label>
-</div>
-
-<div>
-    <input type="radio" id="weekly">
-    <label for="weekly">Weekly</label>
-</div><br>
-
-<div>
-    <label>Upload Resume</label>
-    <button type="choose file">choose file</button>
-    <label>No file choosen</label>
-</div><br>
-
-<div>
-    <button type="signup">signup</button>
-    <button type="reset">reset</button>
-</div>
-
-
-
-
+            </select>
+        </div><br>
+        
+        <div>
+           <label for="course">Courses</label>
+        
+        </div><br>
+        <div>
+            <input type="radio" id="CSE">
+            <label for="CSE">CSE</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="ECE">
+            <label for="ECE">ECE</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="IT">
+            <label for="IT">IT</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="EEE">
+            <label for="EEE">EEE</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="CIVIL">
+            <label for="CIVIL">CIVIL</label>
+        </div><br>
+        
+        
+        <div>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+</body>
+</html>
